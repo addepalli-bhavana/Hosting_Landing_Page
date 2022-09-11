@@ -1,0 +1,363 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  list-style-type: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon {
+  display: none;
+}
+body {
+  background-color: #fdfeff;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  font-size: 20px;
+}
+.list-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 330px;
+}
+.nav img {
+  height: 50px;
+}
+.list-items li {
+  padding: 0px 20px;
+}
+.nav button {
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid #76bcf6;
+  color: #76bcf6;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.main-section {
+  padding: 50px 100px;
+}
+.one,
+.two,
+.three {
+  display: flex;
+}
+.two {
+  padding: 54t50px 0px;
+}
+.main-section img {
+  height: 60vh;
+}
+.main-section h1 {
+  font-size: 50px;
+}
+.main-section p {
+  font-size: 20px;
+  line-height: 35px;
+}
+.main-section button {
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px 0px #c3dbf3;
+  background: linear-gradient(to bottom, #09baf7, #0572ec);
+}
+.text-one,
+.text-two,
+.text-three {
+  padding: 30px 0px;
+}
+.text-one p,
+.text-two p,
+.text-three p {
+  padding: 30px 0px;
+}
+.image-one,
+.image-three {
+  padding-left: 40px;
+}
+.image-two {
+  padding-right: 70px;
+}
+.services {
+  padding: 30px 100px;
+  padding-bottom: 70px;
+}
+.services-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-heading h2 {
+  font-size: 30px;
+  padding-right: 210px;
+  padding-left: 20px;
+}
+.services-heading p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.services-content {
+  display: grid;
+  margin: 25px 0px;
+  grid-template-columns: auto auto auto;
+}
+.unlimited,
+.cloud,
+.wordpress,
+.vps,
+.domain,
+.builder {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.services img {
+  height: 60px;
+}
+.services h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.services p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.packages {
+  padding: 40px 100px;
+  background: linear-gradient(to right bottom, #09bdf8, #045fe9);
+}
+.packages h4 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+.packages-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.packages-content .first,
+.second,
+.third {
+  background-color: #FFFFFF;
+  padding: 30px;
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.packages h5 {
+  font-size: 30px;
+}
+.suitable {
+  font-size: 16px;
+  padding-top: 15px;
+  color: #666666;
+}
+.packages ul {
+  padding: 40px 0px;
+}
+.packages li {
+  font-size: 17px;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+.packages h6 {
+  font-size: 25px;
+  text-align: center;
+}
+.packages p:last-child {
+  font-size: 18px;
+}
+.packages button {
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid #0a91f1;
+  border-radius: 10px;
+  color: #0a91f1;
+  font-weight: bold;
+  padding: 15px 35px;
+}
+span {
+  color: #666666;
+}
+.p-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cancel {
+  text-align: center;
+  padding: 25px 0px;
+  color: #666666;
+  font-size: 18px;
+}
+li img {
+  height: 20px;
+  position: relative;
+  right: 10px;
+  top: 3px;
+}
+.customer {
+  padding: 100px;
+}
+.customer h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.cust-p {
+  font-size: 20px;
+  padding: 20px 200px;
+  text-align: center;
+}
+.customer-cards {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+}
+.card-author-pic {
+  height: 45px;
+  width: 45px;
+  background-color: #d9d9d9;
+  border-radius: 45px;
+}
+.card-author {
+  display: flex;
+  align-items: center;
+}
+.card p {
+  line-height: 30px;
+}
+.card-author {
+  padding: 15px 0px;
+}
+.card-author-name {
+  padding-left: 10px;
+}
+.register {
+  color: #FFFFFF;
+  padding: 70px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right bottom, #18c6f8, #0572ec);
+}
+.register h1 {
+  font-size: 40px;
+}
+.register p {
+  font-size: 20px;
+  padding-top: 8px;
+}
+.register button {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.footer {
+  display: flex;
+  padding: 50px 100px;
+  font-size: 18px;
+}
+.footer ul {
+  padding: 0px 40px;
+}
+.footer ul li {
+  padding: 10px 0px;
+}
+.footer div img {
+  height: 45px;
+}
+.footer ul li img {
+  height: 45px;
+}
+.about-logo {
+  width: 450px;
+  line-height: 33px;
+}
+.about-logo p {
+  padding-top: 10px;
+}
+.footer ul li:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+.menu-list li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.links-list li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.overview-list li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.register button:hover {
+  background-color: #FFFFFF;
+  color: #045fe9;
+  border: none;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.list-items li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav button:hover {
+  background-color: #76bcf6;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+.main-section button:hover {
+  background: transparent;
+  border: 2px solid #0572ec;
+  cursor: pointer;
+  color: #045fe9;
+  box-shadow: none;
+}
+.unlimited:hover,
+.cloud:hover,
+.wordpress:hover,
+.vps:hover,
+.domain:hover,
+.builder:hover {
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.first:hover,
+.second:hover,
+.third:hover {
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.packages button:hover {
+  box-shadow: 0px 15px 20px 0px #c3dbf3;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to bottom, #09baf7, #0572ec);
+}

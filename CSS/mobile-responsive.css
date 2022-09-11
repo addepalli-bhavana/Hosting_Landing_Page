@@ -1,0 +1,215 @@
+@media screen and (max-width: 550px) {
+  .icon {
+    display: block;
+    font-size: 25px;
+  }
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .nav img {
+    height: 40px;
+  }
+  .list-items {
+    display: none;
+  }
+  .nav button {
+    display: none;
+  }
+  .nav {
+    padding: 20px;
+  }
+  .main-section {
+    padding: 20px;
+    text-align: left;
+  }
+  .one,
+  .two,
+  .three {
+    flex-direction: column-reverse;
+  }
+  .two {
+    padding: 80px 0px;
+    flex-direction: column;
+  }
+  .main-section img {
+    height: 30vh;
+  }
+  .main-section h1 {
+    font-size: 25px;
+  }
+  .main-section p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .text-one,
+  .text-two,
+  .text-three {
+    padding: 0px;
+    padding-top: 15px;
+  }
+  .text-one p,
+  .text-two p,
+  .text-three p {
+    padding: 15px 0px;
+  }
+  .image-one,
+  .image-three {
+    padding-left: 0px;
+  }
+  .image-two {
+    padding-right: 0px;
+  }
+  .image-one,
+  .image-three,
+  .image-two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .services {
+    padding: 70px 20px;
+  }
+  .services-heading {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .services-heading h2 {
+    font-size: 25px;
+    padding: 0px;
+  }
+  .services-heading p {
+    font-size: 17px;
+    padding-top: 10px;
+  }
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .unlimited,
+  .cloud,
+  .wordpress,
+  .vps,
+  .domain,
+  .builder {
+    margin: 10px 0px;
+    padding: 10px;
+  }
+  .services img {
+    height: 40px;
+  }
+  .services h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .services p {
+    font-size: 17px;
+  }
+  .packages {
+    padding: 25px 20px;
+  }
+  .packages h4 {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+  .packages-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .packages-content .first,
+  .second,
+  .third {
+    padding: 20px;
+    margin: 10px 0px;
+  }
+  .packages h5 {
+    font-size: 25px;
+  }
+  .suitable {
+    font-size: 15px;
+    padding-top: 7px;
+  }
+  .packages ul {
+    padding: 15px 0px;
+  }
+  .packages li {
+    font-size: 17px;
+    padding: 5px 0px;
+    font-weight: bold;
+  }
+  .packages h6 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .cancel {
+    padding: 15px 0px;
+    font-size: 16px;
+  }
+  .packages button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .customer {
+    padding: 30px 20px;
+  }
+  .customer h1 {
+    font-size: 25px;
+    text-align: left;
+  }
+  .cust-p {
+    font-size: 17px;
+    padding: 10px 0px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .customer-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card {
+    padding: 10px;
+    margin: 10px 0px;
+  }
+  .register {
+    padding: 30px 20px;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .register h1 {
+    font-size: 25px;
+  }
+  .register p {
+    font-size: 17px;
+    padding-top: 0px;
+    padding: 15px 0px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .footer ul {
+    padding: 0px;
+    padding-right: 50px;
+  }
+  .footer ul li {
+    padding: 4px 0px;
+  }
+  .footer div img {
+    height: 35px;
+  }
+  .footer ul li img {
+    height: 35px;
+  }
+  .about-logo p {
+    padding-top: 0px;
+    line-height: 20px;
+  }
+}
