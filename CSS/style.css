@@ -5,12 +5,15 @@
   list-style-type: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+/* menu-icon */
 .icon {
   display: none;
 }
+/* background-color */
 body {
   background-color: #fdfeff;
 }
+/* nav-bar */
 .nav {
   display: flex;
   align-items: center;
@@ -39,6 +42,7 @@ body {
   border-radius: 10px;
   font-size: 17px;
 }
+/* main-section */
 .main-section {
   padding: 50px 100px;
 }
@@ -87,6 +91,7 @@ body {
 .image-two {
   padding-right: 70px;
 }
+/* services-section */
 .services {
   padding: 30px 100px;
   padding-bottom: 70px;
@@ -133,6 +138,7 @@ body {
   font-size: 18px;
   line-height: 30px;
 }
+/* packages-section */
 .packages {
   padding: 40px 100px;
   background: linear-gradient(to right bottom, #09bdf8, #045fe9);
@@ -208,6 +214,7 @@ li img {
   right: 10px;
   top: 3px;
 }
+/* customer-section */
 .customer {
   padding: 100px;
 }
@@ -251,6 +258,7 @@ li img {
 .card-author-name {
   padding-left: 10px;
 }
+/* register-section */
 .register {
   color: #FFFFFF;
   padding: 70px 100px;
@@ -275,6 +283,7 @@ li img {
   padding: 10px 20px;
   font-size: 18px;
 }
+/* footer-section */
 .footer {
   display: flex;
   padding: 50px 100px;
@@ -303,6 +312,7 @@ li img {
   font-weight: bold;
   font-size: 20px;
 }
+/* hover-effect */
 .menu-list li:hover {
   font-weight: bold;
   cursor: pointer;
